@@ -32,12 +32,43 @@ li a:hover {
 }
 
 .containerHome {
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-top: 5%;
+	padding-left: ;
+	font-size:20px;
 	display: grid;
 	width: 100%;
 	background: LightGray;
-	grid-template-columns: ;
-	grid-template-rows: ;
+	grid-template-columns: 22.22vw 33.33vw 20.25vw 25.25vw;
+	grid-template-rows: 36vh 36vh;
+	grid-column-gap: 1.25vw;
+	grid-row-gap: 2.22vh;
+	min-height: 1500px;
 }
 
+.phone{
+	width: 22.22vw;
+	height: 74.22vh;
+	grid-row: 1/3;
+}
+
+.desktop{
+	width: 33.33vw;
+	height: 36vh;
+	grid-column: 2/3;
+}
+
+.profile{
+	width: 20.25vw;
+	height: 36vh;
+}
+
+.red{
+	background: red;
+	grid-row: 1/3;
+}
+.blue{
+	background: blue;
+	grid-column:2/3;
+}
+.yellow{background: yellow;}
+.green{background: green;}
