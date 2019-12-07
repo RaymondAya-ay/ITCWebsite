@@ -9,7 +9,10 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #1693e0;
-	
+	position: fixed;
+	top: 0;
+	width:100%;
+	z-index: 2;
 }
 
 li {
@@ -41,7 +44,7 @@ img:hover{
 
 .containerHome {
 	text-align: center;
-	padding-top: ;
+	padding-top: 5%;
 	padding-left: ;
 	font-size:20px;
 	display: grid;
@@ -54,7 +57,7 @@ img:hover{
 }
 
 .containerPhones {
-	padding-top: 5%;
+	padding-top: 10%;
 	padding-left: ;
 	font-size:20px;
 	display: grid;
