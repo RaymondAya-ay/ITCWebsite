@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	font-family: Roboto;
 }
 
 ul {
@@ -7,8 +8,8 @@ ul {
 	margin: 0px;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
-	font-family: Roboto;
+	background-color: #1693e0;
+	
 }
 
 li {
@@ -28,27 +29,59 @@ li a {
 
 
 li a:hover {
-	background-color: #111;
+	background-color: #106aa1;
 }
 
+img:hover{
+	transform: scale(1.1);
+	box-shadow: 1em 1em rgba(0,0,0,.5);
+}
+
+
+
 .containerHome {
+	text-align: center;
+	padding-top: ;
+	padding-left: ;
+	font-size:20px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 22.22vw 33.33vw 20.25vw 20.25vw;
+	grid-template-rows: 10vh 15vh 36vh 36vh;
+	grid-column-gap: 1vw;
+	grid-row-gap: 2.22vh;
+	min-height: 1500px;
+}
+
+.containerPhones {
 	padding-top: 5%;
 	padding-left: ;
 	font-size:20px;
 	display: grid;
 	width: 100%;
-	background: LightGray;
-	grid-template-columns: 22.22vw 33.33vw 20.25vw 25.25vw;
-	grid-template-rows: 36vh 36vh;
-	grid-column-gap: 1.25vw;
-	grid-row-gap: 2.22vh;
+	grid-template-columns: 22.22vw 22.22vw 22.22vw 22.22vw;
+	grid-template-rows: 36vh 36vh 36vh 36vh;
+	grid-column-gap: 3.4vw;
+	grid-row-gap: 3.33vh;
 	min-height: 1500px;
+}
+
+.phoneHome{
+	width: 22.22vw;
+	height: 74.22vh;
+	grid-row: 3/5;
 }
 
 .phone{
 	width: 22.22vw;
 	height: 74.22vh;
 	grid-row: 1/3;
+}
+
+.phone2{
+	width: 22.22vw;
+	height: 74.22vh;
+	grid-row: 3/4;
 }
 
 .desktop{
@@ -62,13 +95,19 @@ li a:hover {
 	height: 36vh;
 }
 
-.red{
-	background: red;
-	grid-row: 1/3;
+#rightCB{
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 1.5%;
+	color: white;
 }
-.blue{
-	background: blue;
-	grid-column:2/3;
+
+#splash{
+	grid-column: 1/5;
 }
-.yellow{background: yellow;}
-.green{background: green;}
+
+#profileLabel{
+	grid-column: 3/5
+}
+

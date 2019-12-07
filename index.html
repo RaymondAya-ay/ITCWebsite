@@ -6,25 +6,33 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
+<script src="myScript.js"></script>
+
 <body>
 	<ul>
-		<li><a href="">Home</a></li>
-		<li><a href="">Phone Wallpapers</a></li>
+		<li><a href="#">Home</a></li>
+		<li><a href="phoneWallpapers.html">Phone Wallpapers</a></li>
 		<li><a href="">Desktop Wallpapers</a></li>
 		<li><a href="">Profile Pictures</a></li>
 		<li><a href="">Aritsts</a></li>
+		<li id="rightCB"><form><input type="checkbox" id="boxbox" onclick="darkMode()">Dark Mode</form></li>
 	</ul>
 
 	<div class="containerHome">
-			
-			<img class="phone" src="images/waifu.jpg">
-			<img class="desktop" src="images/spiderverse.png">
-			<img class="profile" src="images/funnycat.jpg">
-			<img class="profile" src="images/funnycat2.jpg">
 
-			<img class="desktop" src="images/forest.jpg">
-			<img class="profile" src="images/sad.jpg">
-			<img class="profile" src="images/2b.jpg">
+			<div id="splash"><h1>Whats hot</h1></div>
+			<div><h1>Phone Wallpapers</h1></div>
+			<div><h1>Desktop Wallpapers</h1></div>
+			<div id="profileLabel"><h1>Profile Pictures</h1></div>
+
+			<a target="_blank" href="images/gotoubun.png"><img class="phoneHome" src="images/gotoubun.png"></a>
+			<a target="_blank" href="images/spiderverse.png"><img class="desktop" src="images/spiderverse.png"></a>
+			<a target="_blank" href="images/funnycat.jpg"><img class="profile" src="images/funnycat.jpg"></a>
+			<a target="_blank" href="images/funnycat2.jpg"><img class="profile" src="images/funnycat2.jpg"></a>
+
+			<a target="_blank" class="desktop" href="images/forest.jpg"><img class="desktop" src="images/forest.jpg"></a>
+			<a target="_blank" class="profile" href="images/sad.jpg"><img class="profile" src="images/sad.jpg"></a>
+			<a target="_blank" class="profile" href="images/2b.jpg"><img class="profile" src="images/2b.jpg"></a>
 	</div>
 
 
