@@ -16,6 +16,7 @@ function darkMode(){
 		document.getElementById("homelink").href = "index.html";
 		document.getElementById("phonelink").href = "phoneWallpapers.html";
 		document.getElementById("desktoplink").href = "desktopWallpapers.html";
+		document.getElementById("profilelink").href = "profilePictures.html";
 		document.getElementById("artistlink").href = "artistsPage.html";
 	}
 }
