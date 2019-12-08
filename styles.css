@@ -36,8 +36,9 @@ li a:hover {
 }
 
 img:hover{
-	transform: scale(1.1);
-	box-shadow: 1em 1em rgba(0,0,0,.5);
+	transform: scale(1.05);
+	box-shadow: 1em 1.5em rgba(0,0,0,.5);
+	outline: #00AAFF solid 2px;
 }
 
 
@@ -53,7 +54,7 @@ img:hover{
 	grid-template-rows: 10vh 15vh 36vh 36vh;
 	grid-column-gap: 1vw;
 	grid-row-gap: 2.22vh;
-	min-height: 1500px;
+
 }
 
 .containerPhones {
@@ -66,7 +67,43 @@ img:hover{
 	grid-template-rows: 36vh 36vh 36vh 36vh;
 	grid-column-gap: 3.4vw;
 	grid-row-gap: 3.33vh;
-	min-height: 1500px;
+
+}
+
+.containerDesktop {
+	padding-top: 10%;
+	font-size:20px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 46vw 46vw;
+	grid-template-rows: 50vh 50vh 50vh 50vh;
+	grid-column-gap: 5vw;
+	grid-row-gap: 1.05vw;
+
+}
+
+.containerProfile {
+	padding-top: 10%;
+	font-size:20px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
+	grid-template-rows: 11vw 11vw 11vw 11vw;
+	grid-column-gap: 2.7vw;
+	grid-row-gap: 1.05vw;
+
+}
+
+.containerArtists {
+	padding-top: 10%;
+	font-size:20px;
+	display: grid;
+	width: 100%;
+	grid-template-columns: 20.25vw 20.25vw 20.25vw 20.25vw;
+	grid-template-rows: 10vh 50vh 50vh 50vh;
+	grid-column-gap: 5vw;
+	grid-row-gap: 1.05vw;
+
 }
 
 .phoneHome{
@@ -87,17 +124,29 @@ img:hover{
 	grid-row: 3/4;
 }
 
-.desktop{
+.desktopHome{
 	width: 33.33vw;
 	height: 36vh;
 	grid-column: 2/3;
 }
 
-.profile{
-	width: 20.25vw;
-	height: 36vh;
+.desktop{
+	width: 49vw;
+	height: 50vh;
+
 }
 
+.profileHome{
+	width: 20.25vw;
+	height: 36vh;
+
+}
+
+.profile{
+	width: 10vw;
+	height: 10vw;
+
+}
 #rightCB{
 	float: right;
 	padding: 0px;
@@ -111,6 +160,9 @@ img:hover{
 }
 
 #profileLabel{
-	grid-column: 3/5
+	grid-column: 3/5;
 }
 
+.name {
+	grid-column: 1/4;
+}
