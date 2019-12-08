@@ -41,8 +41,21 @@ img:hover{
 	outline: #00AAFF solid 2px;
 }
 
+a.link {
+	color: #576680;
+}
 
+a:visited.link {
+	color: #576680;
+}
 
+a:hover.link{
+	color: #313947;
+}
+
+li.active{
+	bacgkround: #1693e0;
+}
 .containerHome {
 	text-align: center;
 	padding-top: 5%;
@@ -51,7 +64,7 @@ img:hover{
 	display: grid;
 	width: 100%;
 	grid-template-columns: 22.22vw 33.33vw 20.25vw 20.25vw;
-	grid-template-rows: 10vh 15vh 36vh 36vh;
+	grid-template-rows: 10vh 15vh 36vh 36vh 36vh;
 	grid-column-gap: 1vw;
 	grid-row-gap: 2.22vh;
 
@@ -100,9 +113,9 @@ img:hover{
 	display: grid;
 	width: 100%;
 	grid-template-columns: 20.25vw 20.25vw 20.25vw 20.25vw;
-	grid-template-rows: 10vh 50vh 50vh 50vh;
-	grid-column-gap: 5vw;
-	grid-row-gap: 1.05vw;
+	grid-template-rows: 10vh 20.25vw 20.25vw 25.25vw 10vh 20.25vw 20.25vw 20.25vw 20.25vw 25.25vw 10vh 20.25vw 20.25vw 20.25vw;
+	grid-column-gap: 6.02vw;
+	grid-row-gap: 5vh;
 
 }
 
@@ -164,5 +177,25 @@ img:hover{
 }
 
 .name {
-	grid-column: 1/4;
+	grid-column: 1/5;
+}
+
+.artistWallpaper{
+	grid-column-end: span 2;
+	width: 100%;
+	height: 100%;
+}
+
+.artistPhone{
+	grid-row-end: span 2;
+	width: 100%;
+	height: 100%;
+}
+
+#special{
+	grid-column: 1/5;
+	grid-row-end: span 2;
+	padding-left:10%;
+	padding-right: 10%;
+	width: 80%
 }

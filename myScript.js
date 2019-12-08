@@ -3,10 +3,12 @@ function darkMode(){
 	if(checkBox.checked == true){
 		document.body.style.backgroundColor = "#083754";
 		document.body.style.color = "#FFFFFF";
+
 		document.getElementById("homelink").href = "indexDark.html";
 		document.getElementById("phonelink").href = "phoneWallpapersDark.html";
 		document.getElementById("desktoplink").href = "desktopWallpapersDark.html";
 		document.getElementById("profilelink").href = "profilePicturesDark.html";
+		document.getElementById("artistlink").href = "artistsPageDark.html";
 	}
 	else{
 		document.body.style.backgroundColor = "#FFFFFF";
@@ -14,6 +16,6 @@ function darkMode(){
 		document.getElementById("homelink").href = "index.html";
 		document.getElementById("phonelink").href = "phoneWallpapers.html";
 		document.getElementById("desktoplink").href = "desktopWallpapers.html";
-		document.getElementById("profilelink").href = "profilePictures.html";
+		document.getElementById("artistlink").href = "artistsPage.html";
 	}
 }
